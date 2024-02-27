@@ -1,0 +1,15 @@
+.highlight{
+    background-color: red;
+    color: whitesmoke;
+    border: 2px dotted ridge;
+    text-align:center;
+    text-decoration: line-through;
+}
+.button {
+    background-color:blue;
+    color:white;
+    border-radius:10px;
+    width:100px;
+    height:30px;
+  }
+  

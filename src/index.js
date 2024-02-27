@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HomePage from './home';
+import AlgebricEx from './AlgebricExpressions';
+import Map from './Map';
+import Map1 from './Map1';
+import Style from './styling';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Style />
     <App />
+    <HomePage />
+    <AlgebricEx />
+    <Map />
+    <Map1 /> 
   </React.StrictMode>
 );
 

@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
+  let count = 5;
+  let person = {
+    firstName: "John",
+    lastName: "Doe",
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <h1>Hello World</h1>
+      <h1>{count}</h1>
+      <h2>{count * count}</h2>
+      <h2>{person.firstName}</h2>
+      <h2>{person.lastName}</h2>
+    </React.Fragment>
   );
 }
 
